@@ -1,0 +1,22 @@
+---
+title: "Transcriptomics"
+author: "menatalla Hisham Hassan Attia"
+date: "2024-09-04"
+output: html_document
+---
+
+TRANSCRIPTOMICS
+It is the study of the complete set of RNA, including coding and non-coding RNAs, produced in a cell by quantifying their amount using specific techniques such as microarrays and RNA-sequencing technology. Microarray technology helps detect the expression levels of thousands of genes simultaneously; however, it has some limitations when it comes to sensitivity or detecting novel transcripts. On the other hand, RNA-seq has more advantages than microarrays in identifying novel transcripts, alternative splicing events, and low-abundance transcripts. [1]
+By detecting the amount of RNA transcripts, we can identify levels of expression of the genes in our bodies, leading to recognition of differentially expressed genes (DEGs) by comparing the expression of genes between normal and diseased samples. Identifying the differentially expressed genes can be further analyzed in Gene Set Enrichment Analysis (GSEA) in which we can identify the pathways enriched in our set of genes, resulting in developing drugs that can target these pathways, eventually this might result in treating diseases. 
+
+Transcriptomics plays a key role in cancer research by identifying biomarkers essential for early detection and monitoring treatment progress. One study that utilized transcriptome analysis to identify cancer biomarkers was conducted by Mosig et al. They analyzed the RNA transcripts of 22 ovarian cancer patient samples using RNA-seq technology. The study found that insulin-like growth factor binding protein-4 (IGFBP-4) was significantly overexpressed in both early and advanced stages of the disease, as well as in relapse samples. This finding suggests that IGFBP-4 could serve as a valuable biomarker for the early diagnosis of ovarian cancer. [2]
+
+Transcriptomic Analysis is also widely applied in clinical classification of a lot of cancers. Through transcriptomics analysis using microarray technology, Sørlie et al. successfully categorized luminal breast cancer into two distinct subtypes: luminal A (with high estrogen receptor expression and low expression of proliferative markers, e.g., Ki67) and luminal B (presenting lower estrogen receptor expression and high level of expression of proliferation-related genes). This research, along with similar studies, plays a pivotal role in tailoring therapeutic approaches and predicting how patients will respond to cancer drugs. [2]
+
+
+
+
+1. Wang Z, Gerstein M, Snyder M. RNA-Seq: a revolutionary tool for transcriptomics. Nat Rev Genet. 2009 Jan;10(1):57-63. doi: 10.1038/nrg2484. PMID: 19015660; PMCID: PMC2949280.
+2. Supplitt S, Karpinski P, Sasiadek M, Laczmanska I. Current Achievements and Applications of Transcriptomics in Personalized Cancer Medicine. Int J Mol Sci. 2021 Jan 31;22(3):1422. doi: 10.3390/ijms22031422. PMID: 33572595; PMCID: PMC7866970.
+
+
