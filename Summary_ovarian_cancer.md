@@ -22,5 +22,4 @@ Three key pathways were deregulated in HGS-OvCa: the RB1 pathway in 67% of cases
 
 
 REFERENCE
-
 Cancer Genome Atlas Research Network. Integrated genomic analyses of ovarian carcinoma. Nature. 2011 Jun 29;474(7353):609-15. doi: 10.1038/nature10166. Erratum in: Nature. 2012 Oct 11;490(7419):298. PMID: 21720365; PMCID: PMC3163504.
