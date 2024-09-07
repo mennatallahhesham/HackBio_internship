@@ -1,5 +1,7 @@
 Summary of Integrated genomic analyses of ovarian carcinoma
 
+Authors: mennaelqott@gmail.com, esr2aelzoghby@gmail.com, davidomotola0@gmail.com, nishattamanna51@gmail.com
+https://www.linkedin.com/posts/esr3ahmed_biomarkerdiscoveryresearch-hackbiointernship-activity-7238271424346357760-3PZL?utm_source=share&utm_medium=member_desktop
 
 Ovarian cancer ranks as the fifth leading cause of death among American women, with a five-year survival rate of just 31%. Due to the lack of effective treatments, researchers from The Cancer Genome Atlas (TCGA) are investigating genetic mutations in high-grade serous ovarian cancer (HGS-OvCa) to identify potential therapeutic targets.
 
