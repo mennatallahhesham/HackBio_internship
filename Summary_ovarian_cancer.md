@@ -1,11 +1,14 @@
 Summary of Integrated genomic analyses of ovarian carcinoma
 
+
 Ovarian cancer ranks as the fifth leading cause of death among American women, with a five-year survival rate of just 31%. Due to the lack of effective treatments, researchers from The Cancer Genome Atlas (TCGA) are investigating genetic mutations in high-grade serous ovarian cancer (HGS-OvCa) to identify potential therapeutic targets.
+
 
 
 Mutation Analysis
 
 Researchers identified 19,356 somatic mutations, approximately 61 per tumor, in the analyzed samples. TP53 mutations were prevalent in most cases, while BRCA1 and BRCA2 mutations occurred in 20% of the tumors. Nine genes exhibited significantly higher mutation rates than expected, and recurrent mutations were found in BRAF, PIK3CA, KRAS, and NRAS.
+
 
 
 Copy Number Alterations
