@@ -1,0 +1,50 @@
+
+# Import necessary libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+# Load the dataset
+data =pd.read_csv("B:\\cancer informatics\\Hackbio\\idh task\\filtered_data.csv", index_col=0)
+
+# Display the first few rows of the dataset
+print(data.head())
+                              cg05058263  cg27444789  cg13860548  cg09123484  \
+TCGA-E1-A7YQ-01A-11D-A34K-05    0.030197    0.044625    0.027088    0.047863   
+TCGA-S9-A7QW-01A-11D-A34D-05    0.033791    0.037649    0.023645    0.043936   
+TCGA-HT-7874-01A-11D-2399-05    0.035841    0.049084    0.034282    0.046438   
+TCGA-FG-A4MU-01B-11D-A28N-05    0.032398    0.047664    0.026644    0.043522   
+TCGA-DU-8162-01A-21D-2254-05    0.039617    0.047446    0.034729    0.032791   
+
+                              cg18192808  cg01002125  cg13390004  cg24675056  \
+TCGA-E1-A7YQ-01A-11D-A34K-05    0.025605    0.047291    0.048029    0.041328   
+TCGA-S9-A7QW-01A-11D-A34D-05    0.020432    0.044334    0.034376    0.031684   
+TCGA-HT-7874-01A-11D-2399-05    0.020672    0.066266    0.041378    0.064245   
+TCGA-FG-A4MU-01B-11D-A28N-05    0.023011    0.079243    0.056092    0.053872   
+TCGA-DU-8162-01A-21D-2254-05    0.022976    0.046720    0.057768    0.040871   
+
+                              cg15036616  cg17177755  ...  ch.X.1485219F  \
+TCGA-E1-A7YQ-01A-11D-A34K-05    0.016166    0.009977  ...       0.041242   
+TCGA-S9-A7QW-01A-11D-A34D-05    0.015164    0.010886  ...       0.035919   
+TCGA-HT-7874-01A-11D-2399-05    0.015510    0.012965  ...       0.034701   
+TCGA-FG-A4MU-01B-11D-A28N-05    0.016451    0.028109  ...       0.054892   
+TCGA-DU-8162-01A-21D-2254-05    0.016954    0.015667  ...       0.046736   
+
+                              ch.X.102893131F  ch.X.108297408F  \
+TCGA-E1-A7YQ-01A-11D-A34K-05         0.040625         0.042352   
+TCGA-S9-A7QW-01A-11D-A34D-05         0.046551         0.033348   
+TCGA-HT-7874-01A-11D-2399-05         0.077214         0.049541   
+TCGA-FG-A4MU-01B-11D-A28N-05         0.066569         0.042880   
+TCGA-DU-8162-01A-21D-2254-05         0.069603         0.045314   
+
+                              ch.X.112118442F  ch.X.112138872R  cg04290452  \
+TCGA-E1-A7YQ-01A-11D-A34K-05         0.038221         0.044758    0.080466   
+TCGA-S9-A7QW-01A-11D-A34D-05         0.035897         0.045890    0.025728   
+TCGA-HT-7874-01A-11D-2399-05         0.101696         0.061030    0.034421   
+TCGA-FG-A4MU-01B-11D-A28N-05         0.052669         0.070233    0.036266   
+TCGA-DU-8162-01A-21D-2254-05         0.069327         0.079029    0.182898   
+
+                              cg06119392  cg
